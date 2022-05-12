@@ -1,0 +1,44 @@
+.button-base {
+    margin: 5px 0px 5px;
+    padding: 0px 15px;
+    letter-spacing: 2px;
+    font-size: 11px;
+    text-transform: uppercase;
+    box-shadow: rgba( 0, 0, 0, 0.1) 0px 1px 1px 1px;
+    min-width: 190px;
+    min-height: 40px;
+    cursor: pointer;
+}
+
+.primary-btn {
+    background-color: rgb(229, 32, 46);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.primary-btn:hover {
+    background-color: rgb(255, 62, 76);
+}
+
+.secondary-btn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(229, 32, 46);
+    border-color: rgb(229, 32, 46);
+    border-width: 1px;
+}
+
+.secondary-btn:hover {
+    background-color: rgb(229, 32, 46);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.link-btn {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(229, 32, 46);
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 11px;
+}

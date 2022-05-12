@@ -1,0 +1,439 @@
+{
+  "partners": [
+    {
+      "id": 0,
+      "title": ": Tappx",
+      "privacyPolicy": "https://www.tappx.com/en/privacy-policy/",
+      "expiryDate": "7 dienos",
+      "purposes": [15, 7, 9, 12],
+      "specialPurposes": [0, 1],
+      "functions": [3],
+      "specialFunctions": [5, 6]
+    },
+    {
+      "id": 1,
+      "title": "1020, Inc. dba Placecast and Ericsson Emodo",
+      "privacyPolicy": "https://www.emodoinc.com/privacy-policy/",
+      "expiryDate": "7 dienos",
+      "purposes": [7, 8, 9, 10, 11, 12, 13, 14],
+      "specialPurposes": [0],
+      "functions": [2, 4],
+      "specialFunctions": [5]
+    },
+    {
+      "id": 2,
+      "title": "152 Media LLC",
+      "privacyPolicy": " https://152media.com/privacy-policy/",
+      "expiryDate": "7 dienos",
+      "purposes": [12]
+    },
+    {
+      "id": 3,
+      "title": "1plusX AG",
+      "privacyPolicy": "https://www.1plusx.com/privacy-policy/",
+      "expiryDate": "365 dienos",
+      "purposes": [15],
+      "functions": [2, 3]
+    },
+    {
+      "id": 4,
+      "title": "2KDirect, Inc. (dba iPromote)",
+      "privacyPolicy": "https://www.ipromote.com/privacy-policy/",
+      "expiryDate": "730 dienos",
+      "purposes": [15],
+      "functions": [0, 1]
+    },
+    {
+      "id": 5,
+      "title": "152 Media LLC",
+      "privacyPolicy": " https://152media.com/privacy-policy/",
+      "expiryDate": "7 dienos",
+      "purposes": [12]
+    },
+    {
+      "id": 6,
+      "title": "33Across",
+      "privacyPolicy": "https://www.33across.com/privacy-policy",
+      "expiryDate": "365 dienos",
+      "purposes": [15, 7, 9, 12],
+      "specialPurposes": [0, 1],
+      "functions": [3]
+    },
+    {
+      "id": 7,
+      "title": "360e-com Sp. z o.o.",
+      "privacyPolicy": "https://www.clickonometrics.com/optout/",
+      "expiryDate": "365 dienos",
+      "purposes": [15, 7, 8, 9, 12, 14],
+      "functions": [4],
+      "specialFunctions": [5]
+    },
+    {
+      "id": 8,
+      "title": "3Q nexx GmbH",
+      "privacyPolicy": "https://3q.video/de/datenschutz_und_richtlinien",
+      "expiryDate": "30 dienų",
+      "purposes": [15, 11],
+      "specialPurposes": [0, 1]
+    },
+    {
+      "id": 9,
+      "title": "42 Ads GmbH",
+      "privacyPolicy": "https://42ads.io/42privacy.pdf",
+      "expiryDate": "365 dienos",
+      "purposes": [15, 7, 8, 9, 10, 11, 12, 13],
+      "specialPurposes": [0, 1],
+      "functions": [3, 4],
+      "specialFunctions": [6]
+    }
+  ],
+  "purposes": [
+    {
+      "id": 0,
+      "title": "Užtikrinti saugumą, užkirsti kelią apgaulėms ir atlikti derinimo veiksmus",
+      "description": "Jūsų duomenys gali būti naudojami apgaulingai veiklai stebėti ir užkirsti jai kelią, ir užtikrinti, kad sistemos ir procesai veiktų tinkamai ir saugiai.",
+      "icon": "ic:baseline-security",
+      "data": ["Įrenginio charakteristikos", "Geografinės vietos duomenys"],
+      "legalDescription": {
+        "can": [
+          "Rinkti ir tvarkyti tikslius geografinės vietos duomenis siekdami vieno ar daugiau tikslų."
+        ],
+        "note": "Tikslūs geografinės vietos duomenys reiškia, kad <b>nėra jokių naudojo vietos tikslumo apribojimų; vieta gali būti nustatoma kelių metrų tikslumu</b>. Tam tikras šių duomenų naudojimas apsaugai ar sukčiavimo prevencijai yra atskirai aprašytas ir <b>nereikalaujama atskiro vartotojo sprendimo naudoti tikslius geografinės padėties duomenis</b>."
+      },
+      "type": [],
+      "partners": [0, 1, 4, 6, 8, 9],
+      "required": true
+    },
+    {
+      "id": 1,
+      "title": "Techniškai pateikti turinį arba skelbimus",
+      "description": "Jūsų įrenginys gali priimti ir gauti informaciją, kuri jums leistų matyti skelbimus ir turinį ir su jais sąveikauti.",
+      "icon": "mdi:cursor-default-click",
+      "data": ["IP adresas", "Veikla svetainėje", "Įrenginio charakteristikos"],
+      "legalDescription": {
+        "can": [
+          "Naudoti vartotojo IP adresą pateikti skelbimą internetu",
+          "Reaguoti į vartotojo sąveikavimą su skelbimu nukreipdami vartotoją į įėjimo tinklalapį",
+          "Naudoti vartotojo IP adresą pateikti turinį internetu",
+          "Reaguoti į vartotojo sąveikavimą su turiniu nukreipdami vartotoją į įėjimo tinklalapį",
+          "Naudoti informaciją apie įrenginio tipą ir jo charakteristikas skelbimams ir turiniui pateikti, pavyzdžiui, pateikti tinkamo dydžio kūrybinį ar vaizdo įrašą įrenginio palaikomu formatu"
+        ],
+        "cant": [
+          "Atlikti bet kokių kitų pagal šį tikslą leidžiamų duomenų tvarkymo operacijų siekdami kito tikslo"
+        ]
+      },
+      "type": [],
+      "partners": [0, 4, 6, 8, 9],
+      "required": true
+    },
+    {
+      "id": 2,
+      "title": "Derinti ir jungti ne interneto duomenų šaltinius",
+      "description": "Ne interneto duomenų šaltinių duomenys gali būti derinami su jūsų veiklos internete duomenimis padedant pasiekti vieno ar daugiau tikslų.",
+      "icon": "fluent:cookies-24-filled",
+      "data": ["Slapukai", "Įrenginių identifikatoriai"],
+      "legalDescription": {
+        "can": [
+          "Jungti ne internetu gautus duomenis su internetu gautais duomenimis padedant pasiekti vieno ar daugiau tikslų ar specialiųjų tikslų"
+        ]
+      },
+      "type": [],
+      "partners": [1, 3],
+      "required": true
+    },
+    {
+      "id": 3,
+      "title": "Susieti skirtingus įrenginius",
+      "description": "Gali būti nustatyta, kad skirtingi įrenginiai priklauso jums ar jūsų būstui siekiant vieno ar kelių tikslų.",
+      "icon": "akar-icons:network",
+      "data": ["Įrenginių identifikatoriai"],
+      "legalDescription": {
+        "can": [
+          "Deterministiškai nustatyti, kad du ar daugiau įrenginių priklauso tam pačiam vartotojui arba būstui",
+          "Tikimybiškai nustatyti, kad du ar daugiau įrenginių priklauso tam pačiam vartotojui arba būstui",
+          " Aktyviai skenuoti įrenginio identifikavimo charakteristikas tikimybiniam identifikavimui, jeigu vartotojas yra leidęs tiekėjams aktyviai skenuoti įrenginio charakteristikas identifikavimo tikslais"
+        ]
+      },
+      "type": [],
+      "partners": [0, 3, 6, 9],
+      "required": true
+    },
+    {
+      "id": 4,
+      "title": "Gauti ir naudoti automatiškai siunčiamas įrenginio charakteristikas identifikavimui",
+      "description": "Jūsų įrenginys gali būti atskirtas nuo kitų įrenginių pagal informaciją, kurią jis automatiškai siunčia, pvz., IP adresą ar naršyklės tipą.",
+      "icon": "eos-icons:ip-outlined",
+      "data": ["IP adresas", "Įrenginio charakteristikos"],
+      "legalDescription": {
+        "can": [
+          "Sukurti identifikatorių, naudodamiesi duomenimis, automatiškai renkamais iš įrenginio, tam tikroms charakteristikoms, pvz., IP adresui, vartotojo atstovo eilutei",
+          "Tokį identifikatorių naudoti bandant pakartotinai identifikuoti įrenginį"
+        ],
+        "cant": [
+          "Sukurti identifikatorių, naudodami duomenis, surinktus aktyviai skenuojant įrenginį dėl konkrečių jo charakteristikų, pvz., įdiegtų šriftų ar ekrano skiriamosios gebos, vartotojui neturint galimybės atskirai atsisakyti aktyviai skenuoti įrenginį dėl konkrečių jo charakteristikų",
+          "Tokį identifikatorių naudoti įrenginiui pakartotinai identifikuoti"
+        ]
+      },
+      "type": [],
+      "partners": [1, 7, 9],
+      "required": false
+    },
+    {
+      "id": 5,
+      "title": "Naudoti tikslius geografinės vietos duomenis",
+      "description": "Jūsų tikslūs geografinės vietos duomenys gali būti naudojami siekiant vieno ar daugiau tikslų. Tai reiškia, kad jūsų buvimo vieta gali būti nustatyta kelių metrų tikslumu.",
+      "icon": "ci:location",
+      "data": ["Geografinės vietos duomenys"],
+      "legalDescription": {
+        "can": [
+          "Rinkti ir tvarkyti tikslius geografinės vietos duomenis siekdami vieno ar daugiau tikslų"
+        ],
+        "note": "Tikslūs geografinės vietos duomenys reiškia, kad <b>nėra jokių naudojo vietos tikslumo apribojimų; vieta gali būti nustatoma kelių metrų tikslumu</b>. Tam tikras šių duomenų naudojimas apsaugai ar sukčiavimo prevencijai yra atskirai aprašytas ir <b>nereikalaujama atskiro vartotojo sprendimo naudoti tikslius geografinės padėties duomenis</b>."
+      },
+      "type": [],
+      "partners": [0, 1, 7],
+      "required": false
+    },
+    {
+      "id": 6,
+      "title": "Aktyviai skenuoti įrenginio charakteristikas identifikavimo tikslais",
+      "description": "Jūsų įrenginys gali būti identifikuotas remiantis jūsų įrenginio unikalių charakteristikų derinio skenavimo duomenimis.",
+      "icon": "material-symbols:perm-device-information-rounded",
+      "data": ["Įrenginio charakteristikos"],
+      "legalDescription": {
+        "can": [
+          "Sukurti identifikatorių, naudodami duomenis, surinktus aktyviai skenuojant įrenginį dėl konkrečių jo charakteristikų, pvz., įdiegtų šriftų ar ekrano skiriamosios gebos",
+          "Tokį identifikatorių naudoti įrenginiui pakartotinai identifikuoti"
+        ],
+        "note": "Tam tikras šių duomenų naudojimas apsaugai ar sukčiavimui reglamentuotas atskirai ir <b>nereikalauja atskiro vartotojo sprendimo aktyviai skenuoti įrenginio charakteristikas identifikavimo tikslais</b>."
+      },
+      "type": [],
+      "partners": [0, 9],
+      "required": false
+    },
+    {
+      "id": 7,
+      "title": "Pasirinkti pagrindinius reklaminius skelbimus",
+      "description": "Reklaminiai skelbimai gali būti jums rodomi atsižvelgiant į jūsų peržiūrimą turinį, naudojamą programėlę, jūsų apytikslę buvimo vietą arba jūsų įrenginio tipą.",
+      "icon": "fluent:window-ad-20-filled",
+      "data": [
+        "Įrenginio charakteristikos",
+        "Sąveika su reklamomis",
+        "IP adresas",
+        "Geografinės vietos duomenys"
+      ],
+      "legalDescription": {
+        "can": [
+          "Remtis tikralaike informacija apie kontekstą, kuriame reklaminis skelbimas bus rodomas",
+          "Parodyti skelbimą, įskaitant informaciją apie turinį ir įrenginį, tokį kaip įrenginio tipas ir charakteristikos, vartotojo atstovas, URL, IP adresas",
+          "Naudoti vartotojo netikslius geografinės vietos duomenis",
+          "Valdytiskelbimų rodymo vartotojui dažnį",
+          " Nustatyti skelbimų rodymų vartotojui seką",
+          "Neleisti skelbimo naudoti netinkamame redakciniame kontekste (nesaugiame prekės ženklui)"
+        ],
+        "cant": [
+          "Sukurti suasmenintą skelbimų profilį, naudodami šią informaciją būsimiems skelbimams pasirinkti be atskiro teisinio pagrindo kaip suasmenintą skelbimų profilį"
+        ],
+        "note": "Netiksli reiškia, kad leidžiama nurodyti apytikslę, <b>ne mažesnio nei 500 metrų spindulio teritorijoje esančią buvimo vietą</b>."
+      },
+      "type": [],
+      "partners": [1, 6, 7, 9],
+      "required": false
+    },
+    {
+      "id": 8,
+      "title": "Kurti reklaminių suasmenintą skelbimų profilį",
+      "description": "Profilis gali būti sukurtas atsižvelgiant į jus ir jūsų interesus, kad jums būtų rodomi asmeniškai jums pritaikyti ir aktualūs skelbimai.",
+      "icon": "ri:profile-line",
+      "data": [
+        "Veikla svetainėje",
+        "Interesai",
+        "Demografinė infromacija",
+        "Geografinės vietos duomenys"
+      ],
+      "legalDescription": {
+        "can": [
+          "Rinkti informaciją apie vartotoją, įskaitant vartotojo veiklą, interesus, demografinę informaciją, buvimo vietą, kad sukurtų arba redaguotų vartotojo profilį, skirtą naudoti suasmenintuose reklaminiuose pranešimuose",
+          " Sujungti šią informaciją su kita anksčiau surinkta informacija, įskaitant iš visų svetainių ir programų, kad sukurtumėte ar redaguotumėte vartotojo profilį, skirtą naudoti suasmenintoje reklamoje"
+        ]
+      },
+      "type": [],
+      "partners": [1, 7, 9],
+      "required": false
+    },
+    {
+      "id": 9,
+      "title": "Pasirinkti suasmenintus skelbimus",
+      "description": "Suasmeninti skelbimai gali būti rodomi vadovaujantis sukurtu jūsų profiliu.",
+      "icon": "fluent:window-ad-person-20-filled",
+      "data": [
+        "Veikla svetainėje",
+        "Demografinė infromacija",
+        "Geografinės vietos duomenys"
+      ],
+      "legalDescription": {
+        "can": [
+          "Pasirinkti suasmenintą reklaminį skelbimą remiantis vartotojo profiliu ir kitais istoriniais duomenimis, įskaitant ankstesnę vartotojo veiklą, interesus, jo apsilankymus svetainėse arba naudojamas programėles, vietoves ar demografinę informaciją"
+        ]
+      },
+      "type": [],
+      "partners": [0, 1, 6, 7, 9],
+      "required": false
+    },
+    {
+      "id": 10,
+      "title": "Sukurti suasmenintą turinio profilį",
+      "description": "Profilis gali būti sukurtas atsižvelgiant į jus ir jūsų interesus, kad jums būtų rodomas asmeniškai jums pritaikytas ir aktualus turinys.",
+      "icon": "bxs:user-circle",
+      "data": [
+        "Veikla svetainėje",
+        "Interesai",
+        "Demografinė infromacija",
+        "Geografinės vietos duomenys"
+      ],
+      "legalDescription": {
+        "can": [
+          " Rinkti informaciją apie vartotoją, įskaitant vartotojo veiklą, interesus, duomenis apie jo apsilankymus svetainėse ir naudojamas programėles, demografinę informaciją, buvimo vietą, kad sukurtų arba redaguotų vartotojo profilį suasmenintam turiniui",
+          " Sujungti šią informaciją su kita anksčiau surinkta informacija, įskaitant iš visų svetainių ir programų, kad sukurtumėte ar redaguotumėte vartotojo profilį, skirtą naudoti turinio suasmeninimui."
+        ]
+      },
+      "type": [],
+      "partners": [1, 9],
+      "required": false
+    },
+    {
+      "id": 11,
+      "title": "Pasirinkti suasmenintą turinį",
+      "description": "Suasmenintas turinys gali būti rodomas vadovaujantis sukurtu jūsų profiliu.",
+      "icon": "fluent:notepad-person-16-regular",
+      "data": ["Veikla svetainėje", "Interesai", "Demografinė infromacija"],
+      "legalDescription": {
+        "can": [
+          "Pasirinkti suasmenintą turinį remiantis vartotojo profiliu ir kitais istoriniais duomenimis, įskaitant ankstesnę vartotojo veiklą, interesus, jo apsilankymus svetainėse arba naudojamas programėles ar demografinę informaciją"
+        ]
+      },
+      "type": [],
+      "partners": [1, 8, 9],
+      "required": false
+    },
+    {
+      "id": 12,
+      "title": "Vertinti skelbimo veiksmingumą",
+      "description": "Skelbimų, kuriuos matote ir su kuriais sąveikaujate, veiksmingumas ir efektyvumas gali būti įvertintas.",
+      "icon": "ant-design:line-chart-outlined",
+      "data": ["Sąveika su reklamomis", "Geografinės vietos duomenys"],
+      "legalDescription": {
+        "can": [
+          "Vertinti, ar ir kokiu būdu skelbimas buvo pateiktas vartotojui, ir ar vartotojas į jį atsiliepė",
+          "Teikti ataskaitas apie skelbimus, įskaitant jų efektyvumą ir veiksmingumą",
+          "Teikti ataskaitas apie vartotojus, kurie atsiliepė į skelbimus, naudodamiesi duomenimis, surinktais vartotojui sąveikaujant su šiuo skelbimu",
+          "Teikti pranešimus leidėjams apie jų teritorijoje rodomus skelbimus",
+          "Vertinti, ar skelbimas atitinka redakcinės aplinkos kontekstą (yra saugus prekės ženklui) ir yra jam tinkamas",
+          "Nustatyti procentinę skelbimo dalį, kurią galima buvo pamatyti ir skelbimo peržiūros trukmę"
+        ],
+        "cant": [
+          "Taikyti vertinimu ar panašiai gautus auditorijos įžvalgų duomenis skelbimų vertinimo duomenims, neturėdami teisinio pagrindo taikyti rinkos tyrimų duomenis auditorijos įžvalgoms gauti"
+        ]
+      },
+      "type": [],
+      "partners": [0, 1, 2, 5, 6, 7, 9],
+      "required": false
+    },
+    {
+      "id": 13,
+      "title": "Vertinti turinio veiksmingumą",
+      "description": "Turinio, kurį matote ir su kuriuo sąveikaujate veiksmingumas ir efektyvumas gali būti įvertintas.",
+      "icon": "fluent:checkbox-person-16-regular",
+      "data": ["Veikla svetainėje"],
+      "legalDescription": {
+        "can": [
+          "Įvertinti ir informuoti, kaip turinys buvo pateiktas vartotojams ir kaip jie su juo sąveikavo",
+          "Remiantis tiesiogiai įvertinama ar žinoma informacija pateikti ataskaitas, kaip vartotojai sąveikavo su turiniu"
+        ],
+        "cant": [
+          "Vertinti, ar ir kokiu būdu skelbimai (įskaitant vartotojo platformai pritaikytus skelbimus) buvo pateikti vartotojui, ir ar vartotojas į juos atsiliepė",
+          "Taikyti vertinimu ar panašiai gautus auditorijos įžvalgų duomenis skelbimų vertinimo duomenims, neturėdami atskiro teisinio pagrindo taikyti rinkos tyrimų duomenis auditorijos įžvalgoms gauti"
+        ]
+      },
+      "type": [],
+      "partners": [1, 9],
+      "required": false
+    },
+    {
+      "id": 14,
+      "title": "Taikyti rinkos tyrimus auditorijos įžvalgoms gauti",
+      "description": "Rinkos tyrimų duomenys gali būti naudojami siekiant sužinoti daugiau apie auditorijas, kurios lankosi svetainėse / programėlėse, ar jas peržiūri.",
+      "icon": "ep:data-analysis",
+      "data": ["Sąveika su reklamomis"],
+      "legalDescription": {
+        "can": [
+          "Teikti apibendrintas ataskaitas reklamos tiekėjams ar jų atstovams apie auditorijas, kurias pasiekia jų skelbimai, remdamiesi vertinimu ar panašiai gautomis įžvalgomis",
+          "Teikti apibendrintas ataskaitas leidėjams apie auditorijas, kurioms toks turinys ir (arba) skelbimas buvo skirti, arba kurios sąveikavo su turiniu ir (arba) skelbimais jų įmonėse, taikydamos vertinimu ar panašiai gautomis įžvalgomis",
+          "Susieti ne internetu gautus duomenis su interneto vartotojais, siekdami atlikti rinkos tyrimus, siekiant gauti auditorijos įžvalgas, jeigu tiekėjai yra deklaravę, kad jie gali derinti ir jungti ne interneto duomenų šaltinius"
+        ],
+        "cant": [
+          "Vertinti skelbimų, kurie buvo pateikti konkrečiam vartotojui, arba su kuriais toks vartotojas sąveikavo, veiksmingumo ir efektyvumo, neturėdami teisinio pagrindo vertinti skelbimų veiksmingumą",
+          "Vertinti, koks turinys buvo pateiktas konkrečiam vartotojui ir kaip jis su tokiu turiniu sąveikavo, neturėdami teisinio pagrindo vertinti turinio veiksmingumo"
+        ]
+      },
+      "type": [],
+      "partners": [1, 7],
+      "required": false
+    },
+    {
+      "id": 15,
+      "title": "Laikytis ir (arba) gauti informaciją įrenginyje",
+      "description": "Slapukai, įrenginių identifikatoriai ar kita informacija gali būti laikoma ir prieinama jūsų įrenginyje jums nurodytais tikslais.",
+      "icon": "bxs:download",
+      "data": ["Slapukai", "Įrenginių identifikatoriai"],
+      "legalDescription": {
+        "can": [
+          "Laikyti ir (arba) prieiti įrenginyje tokią informaciją kaip slapukai ir vartotojui suteikti įrenginių identifikatoriai."
+        ]
+      },
+      "type": [],
+      "partners": [0, 3, 4, 6, 7, 8, 9],
+      "required": false
+    }
+  ],
+  "legalInterest": [7, 8, 9, 10, 11, 12, 13, 14],
+  "purposesAndFunctions": [0, 1, 2, 3, 4],
+  "categories": [
+    {
+      "id": 0,
+      "title": "Statistinis vertinimas",
+      "description": "Statistinių duomenų naudojimas turinio ir reklamos veiksmingumui vertinti, auditorijos įžvalgų tyrimui",
+      "purposes": [12, 13, 14, 15]
+    },
+    {
+      "id": 1,
+      "title": "Turinio suasmeninimas",
+      "description": "Suasmeninto turinio profilio, naudojamo asmeniškai pritaikyto turinio rodymui, kūrimas ir suasmeninto turinio parinkimas",
+      "purposes": [10, 11, 3, 4, 5, 15]
+    },
+    {
+      "id": 2,
+      "title": "Reklamu suasmeninimas",
+      "description": "Suasmenino reklaminių skelbimų profilio, naudojamo asmeniškai pritaikytų skelbimų rodymui, kūrimas, suasmenintų ir pagrindinių skelbimų parinkimas",
+      "purposes": [7, 8, 9, 4, 5, 15]
+    },
+    {
+      "id": 3,
+      "title": "Saugumo užtikrinimas",
+      "description": "Jūsų duomenys gali būti naudojami apgaulingai veiklai stebėti ir užkirsti jai kelią, ir užtikrinti, kad sistemos ir procesai veiktų tinkamai ir saugiai",
+      "purposes": [0, 5, 6, 15]
+    },
+    {
+      "id": 4,
+      "title": "Turinio pateikimas",
+      "description": "Jūsų įrenginys gali priimti ir gauti informaciją, kuri jums leistų matyti skelbimus ir turinį ir su jais sąveikauti",
+      "purposes": [1, 2, 4, 6, 15]
+    },
+    {
+      "id": 5,
+      "title": "Skirtingų įrenginių susiejimas",
+      "description": "Ne interneto duomenų šaltinių duomenys gali būti derinami su jūsų veiklos internete duomenimis padedant pasiekti vieno ar daugiau tikslų",
+      "purposes": [3]
+    }
+  ]
+}

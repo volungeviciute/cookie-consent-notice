@@ -1,0 +1,18 @@
+.footer-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 4px 0px;
+    width: 100%;
+    justify-content: center;
+    
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    /* align-items: flex-end; */
+
+}
+
+.save-btn {
+    margin: 0px 0px 0px 55px;
+}
