@@ -63,15 +63,15 @@ const Diagram = (props) => {
       .attr('opacity', (d) =>
         // Opacity depends on input/output
         highlightedOutput && highlightedInput
-          ? highlightedOutput == d.name && highlightedInput == d.category
+          ? highlightedOutput === d.name && highlightedInput === d.category
             ? 1
             : 0.3
           : highlightedOutput
-          ? highlightedOutput == d.name
+          ? highlightedOutput === d.name
             ? 1
             : 0.3
           : highlightedInput
-          ? highlightedInput == d.category
+          ? highlightedInput === d.category
             ? 1
             : 0.3
           : 1
@@ -79,7 +79,7 @@ const Diagram = (props) => {
       // On mouseover of category rect, highlight group
       .on('mouseover', function (el, d) {
         // If rect has no sourceLinks, it is the "final" rect
-        if (d.sourceLinks.length == 0) {
+        if (d.sourceLinks.length === 0) {
           // If final rect, we want to highlight all sources to the final rect
           // set(viewof highlightedInput, null);
           // set(viewof highlightedOutput, d.name);
@@ -151,8 +151,8 @@ const Diagram = (props) => {
           // If BOTH highlighted (via path highlight)
           // Highlight those that match source and target
           if (
-            highlightedOutput == d.target.name &&
-            highlightedInput == d.source.category
+            highlightedOutput === d.target.name &&
+            highlightedInput === d.source.category
           ) {
             return 1;
           } else {
@@ -160,14 +160,14 @@ const Diagram = (props) => {
           }
         } else if (highlightedOutput) {
           // Otherwise, if target matches, highlight
-          if (highlightedOutput == d.target.name) {
+          if (highlightedOutput === d.target.name) {
             return 1;
           } else {
             return 0.3;
           }
         } else if (highlightedInput) {
           // Otherwise, if source matches, highlight
-          if (highlightedInput == d.source.category) {
+          if (highlightedInput === d.source.category) {
             return 1;
           } else {
             return 0.3;
