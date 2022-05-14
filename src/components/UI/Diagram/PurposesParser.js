@@ -36,11 +36,13 @@ const ParsePurposes = (purposeIds) => {
       .map((x) => ({
         name: x,
         category: x,
+        type: 0
       }))
       .concat(
         categories.map((x) => ({
           name: x.title,
-          category: x.title,
+          category: x.description,
+          type: 1
         }))
       ),
     links,

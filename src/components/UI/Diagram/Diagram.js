@@ -40,15 +40,18 @@ const Diagram = (props) => {
     // console.log(
     //   `highlightedInput: ${highlightedInput} \t highlightedOutput: ${highlightedOutput}`
     // );
+    console.log(nodes);
 
-    const format = (d) => {
+    const format = (type, d) => {
+      console.log(data)
       const format = d3.format(',.0f');
-      return data.units ? `${format(d)} ${data.units}` : format;
+      // return data.units ? `${format(d)} ${data.units}` : format;
+      return type === 0 ? `Šis duomenų tipas naudojamas ${format(d)} tikslais` : `Šiuo tikslu tvarkomi ${format(d)} duomenų tipai`;
     };
 
     const svgEl = d3.select(svgRef.current);
     svgRef.current.innerHTML = '';
-
+    //data/purpose node
     svgEl
       .append('g')
       .attr('stroke', '#000')
@@ -99,8 +102,8 @@ const Diagram = (props) => {
         setHighlightedOutput(null);
       })
       .append('title')
-      .text((d) => `${d.name}\n${format(d.value)}`);
-
+      .text((d) => `${d.name}${d.type === 1 ? `\n${d.category}\n` : ""}\n${format(d.type, d.value)}`);
+    //link between data and purpose
     const link = svgEl
       .append('g')
       .attr('fill', 'none')
@@ -194,7 +197,7 @@ const Diagram = (props) => {
 
     link
       .append('title')
-      .text((d) => `${d.source.name} → ${d.target.name}\n${format(d.value)}`);
+      .text((d) => `${d.source.name} tvarkoma "${d.target.name}" tikslu`)
 
     svgEl
       .append('g')
