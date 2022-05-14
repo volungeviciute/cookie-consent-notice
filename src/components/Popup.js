@@ -44,11 +44,11 @@ function Popup(props) {
         </div>
         <div className="popup-content button-container">
           <PrimaryButton
-            buttonName="Nesutinku"
+            buttonName="Sutinku"
             onClick={() => props.setTrigger(false)}
           />
           <PrimaryButton
-            buttonName="Sutinku"
+            buttonName="Nesutinku"
             onClick={() => props.setTrigger(false)}
           />
           <SecondaryButton
