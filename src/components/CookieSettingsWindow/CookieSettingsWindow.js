@@ -1,16 +1,16 @@
-import Footer from './UI/Footer/Footer';
-import Header from './UI/Header/Header';
-import Accordion from './UI/Accordion/Accordion';
+import Footer from '../UI/Footer/Footer';
+import Header from '../UI/Header/Header';
+import Accordion from '../UI/Accordion/Accordion';
 import './CookieSettingsWindow.css';
-import PartnersDescription from './UI/Partners/PartnersDescription';
+import PartnersDescription from '../UI/Partners/PartnersDescription';
 import { Fragment, React, useState } from 'react';
-import PurposeCard from './UI/PurposeCard/PurposeCard';
-import Data from '../data.json';
-import DataFilter from '../DataFilter';
-import SummarySettingsSection from './UI/SummarySettingsSection/SummarySettingsSection';
-import { useConsentContext } from '../store/ConsentContext';
-import Diagram from './UI/Diagram/Diagram';
-import ParsePurposes from './UI/Diagram/PurposesParser';
+import PurposeCard from '../UI/PurposeCard/PurposeCard';
+import Data from '../../data.json';
+import DataFilter from '../../DataFilter';
+import SummarySettingsSection from '../UI/SummarySettingsSection/SummarySettingsSection';
+import { useConsentContext } from '../../store/ConsentContext';
+import Diagram from '../UI/Diagram/Diagram';
+import ParsePurposes from '../UI/Diagram/PurposesParser';
 import {Icon} from "@iconify/react";
 
 function CookieSettingsWindow(props) {
