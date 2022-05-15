@@ -1,4 +1,4 @@
-import Popup from './components/Popup';
+import Popup from './components/Popup/Popup';
 import CookieSettingsWindow from './components/CookieSettingsWindow';
 import { useState } from 'react';
 import { useConsentContext } from './store/ConsentContext';
