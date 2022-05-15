@@ -1,4 +1,4 @@
-import Data from '../../../data.json';
+import Data from '../../../data/data.json';
 
 // parses the purposes array, mapes them to categories
 // and produces a d3-sankey diagram compliant data structure

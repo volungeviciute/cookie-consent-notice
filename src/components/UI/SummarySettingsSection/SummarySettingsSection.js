@@ -1,7 +1,7 @@
 import React from 'react';
 import Accordion from '../Accordion/Accordion';
 import PurposeCard from '../PurposeCard/PurposeCard';
-import DataFilter from '../../../DataFilter';
+import DataFilter from '../../../data/DataFilter';
 import './SummarySettingsSection.css';
 
 function SummarySettingsSection(props) {
