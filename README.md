@@ -8,7 +8,8 @@ Sutikimo užklausa perprojektuota atsižvelgiant į panaudojamumo defektus ir na
 1. Piktogramos - parinktos iš [iconify.design](https://iconify.design/) bibliotekos pagal tikslų pavadinimuose arba aprašuose esančius raktažodžius (pvz., security, profile, IP ir kt.).
 2. „Sankey“ tipo diagrama - diagramos įgyvendinimui pritaikyta C. Rothschild [„Sankey Diagram w/ Highlighting“](https://observablehq.com/@connorrothschild/sankey-diagram-w-highlighting) realizacija saugoma „Observable“ platformoje.
 
-##Ekranvaizdžiai##
+## Ekranvaizdžiai
+
 ![Santrauka](/screenshots/Santrauka.png)
 ![Diagrama](/screenshots/diagrama.gif)
 ![Konkretūs tikslai ir funkcijos](/screenshots/Konkret%C5%ABsTikslaiIrFunkcijos.png)
