@@ -19,6 +19,7 @@ function Toggle(props) {
 
   const toggleChecked = () => {
     setCheckedState((prev) => {
+      if (!props.id) return !prev;
       if (!prev) {
         // means that the current change is going to be checked (true), so update the state
         dispatch({
