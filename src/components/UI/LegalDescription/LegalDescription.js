@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { Icon } from "@iconify/react";
-import "./LegalDescription.css"
+import './LegalDescription.css';
 import parse from "html-react-parser";
 
 function LegalDescription(props) {

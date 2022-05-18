@@ -1,4 +1,3 @@
-// import React from 'react'
 import React, { useState, useEffect } from 'react';
 import { styled } from '@mui/material/styles';
 import Switch from '@mui/material/Switch';
@@ -78,7 +77,7 @@ function Toggle(props) {
             : theme.palette.grey[600],
       },
       '&.Mui-disabled + .MuiSwitch-track': {
-        opacity: theme.palette.mode === 'light' ? 0.7 : 0.3,
+        opacity: 0.7,
       },
     },
     '& .MuiSwitch-thumb': {
@@ -88,7 +87,7 @@ function Toggle(props) {
     },
     '& .MuiSwitch-track': {
       borderRadius: 26 / 2,
-      backgroundColor: theme.palette.mode === 'light' ? '#E9E9EA' : '#39393D',
+      backgroundColor:'#E9E9EA',
       opacity: 1,
       transition: theme.transitions.create(['background-color'], {
         duration: 500,

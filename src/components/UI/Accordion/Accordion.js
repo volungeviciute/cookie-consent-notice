@@ -8,8 +8,7 @@ function Accordion(props) {
   const [setActive, setActiveState] = useState('');
   const [setHeight, setHeightState] = useState('0px');
   const [setRotate, setRotateState] = useState('accordion-icon');
-  // const settingStatus = props.required ? <p>Įjungta</p> : <Toggle></Toggle>;
-
+ 
   const content = useRef(null);
 
   function toggleAccordion() {
@@ -33,14 +32,7 @@ function Accordion(props) {
       content.current.scrollHeight >
         parseInt(setHeight.substring(0, setHeight.length - 2))
     );
-    //setHeightState(setActive === "active" ? "0px" : `${content.current.scrollHeight}px`);
   }
-
-  // useEffect(() => {
-  //   if (content && content.current) {
-  //     setHeightState(setActive === "active" ? "0px" : `${content.current.scrollHeight}px`);
-  //   }
-  // }, [content, content?.current?.scrollHeight, setActive])
 
   return (
     <div className='accordion-section'>
@@ -53,10 +45,6 @@ function Accordion(props) {
           <SettingStatus id={props.purposesId} required={props.required} />
         )}
         <button className={`accordion`} onClick={toggleAccordion}>
-          {/* {props.icon && (
-            <Icon className="accordion-title-icon" icon={props.icon} />
-        )}
-        <p className="accordion-title">{props.title}</p> */}
           <Chevron className={`${setRotate}`} width={10} fill={'#777'} />
         </button>
       </div>

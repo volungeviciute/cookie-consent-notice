@@ -11,7 +11,7 @@ import SummarySettingsSection from '../UI/SummarySettingsSection/SummarySettings
 import { useConsentContext } from '../../store/ConsentContext';
 import Diagram from '../UI/Diagram/Diagram';
 import ParsePurposes from '../UI/Diagram/PurposesParser';
-import {Icon} from "@iconify/react";
+import {Icon} from '@iconify/react';
 
 function CookieSettingsWindow(props) {
   const [setView, setViewState] = useState('santrauka');

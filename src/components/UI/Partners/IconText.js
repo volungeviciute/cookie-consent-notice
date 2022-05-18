@@ -1,6 +1,6 @@
-import { Icon } from "@iconify/react";
-import React from "react";
-import "./PartnersDescription.css"
+import { Icon } from '@iconify/react';
+import React from 'react';
+import './PartnersDescription.css';
 
 function IconText(props) {
   return (

@@ -1,8 +1,6 @@
 import Popup from './components/Popup/Popup';
 import CookieSettingsWindow from './components/CookieSettingsWindow/CookieSettingsWindow';
 import { useState } from 'react';
-import { useConsentContext } from './store/ConsentContext';
-import ParsePurposes from './components/UI/Diagram/PurposesParser';
 
 function App() {
   const [buttonPopup, setButtonPopup] = useState(true);
