@@ -8,7 +8,7 @@ function Popup(props) {
     <div className="popup">
       <div className="popup-inner">
         <div className="popup-content text-container">
-          <h2 className="popup-title">Gerbiame Jūsų privatumą</h2>
+          <h2 className="popup-title">Gerbiame jūsų privatumą</h2>
           <p>
             Mes ir mūsų partneriai saugo ir (arba) pasiekia įrenginyje esančia
             informaciją, tokią kaip <b>slapukai</b>, ir tvarko asmens duomenis,
