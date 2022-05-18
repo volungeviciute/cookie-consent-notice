@@ -10,6 +10,7 @@ Sutikimo užklausa perprojektuota atsižvelgiant į panaudojamumo defektus ir na
 
 ## Ekranvaizdžiai
 
+![Pagrindinis langas](/screenshots/PagrindinisLangas.png)
 ![Santrauka](/screenshots/Santrauka.png)
 ![Diagrama](/screenshots/diagrama.gif)
 ![Konkretūs tikslai ir funkcijos](/screenshots/Konkret%C5%ABsTikslaiIrFunkcijos.png)
