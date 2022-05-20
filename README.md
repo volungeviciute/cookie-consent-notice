@@ -18,7 +18,7 @@ Sutikimo užklausa perprojektuota atsižvelgiant į panaudojamumo defektus ir na
 ![Teisėtas interesas](/screenshots/Teis%C4%97tasInteresas.png)
 
 ## Paleidimo instrukcija
-**Prerekvizitai:** programos paleidimui reikalinga node.js x versija
+**Prerekvizitai:** programos paleidimui reikalinga node.js 16.14.2 (arba naujesnė) versija
 
 1. Nusiklonuoti repozitoriją
 2. Repozitorijos direktorijoje vykdyti komandą `npm install`
