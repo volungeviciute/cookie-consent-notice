@@ -127,7 +127,7 @@ function CookieSettingsWindow(props) {
             ))}
           {setView === "partneriai" &&
             allPartners.map((partner) => (
-              <Accordion title={partner.title}>
+              <Accordion title={partner.title} purposesId={partner.id}>
                 <PartnersDescription
                   privacyPolicy={partner.privacyPolicy}
                   expiryDate={partner.expiryDate}

@@ -1,7 +1,7 @@
 {
   "partners": [
     {
-      "id": 0,
+      "id": "p-0",
       "title": ": Tappx",
       "privacyPolicy": "https://www.tappx.com/en/privacy-policy/",
       "expiryDate": "7 dienos",
@@ -11,7 +11,7 @@
       "specialFunctions": [5, 6]
     },
     {
-      "id": 1,
+      "id": "p-1",
       "title": "1020, Inc. dba Placecast and Ericsson Emodo",
       "privacyPolicy": "https://www.emodoinc.com/privacy-policy/",
       "expiryDate": "7 dienos",
@@ -21,14 +21,14 @@
       "specialFunctions": [5]
     },
     {
-      "id": 2,
+      "id": "p-2",
       "title": "152 Media LLC",
       "privacyPolicy": " https://152media.com/privacy-policy/",
       "expiryDate": "7 dienos",
       "purposes": [12]
     },
     {
-      "id": 3,
+      "id": "p-3",
       "title": "1plusX AG",
       "privacyPolicy": "https://www.1plusx.com/privacy-policy/",
       "expiryDate": "365 dienos",
@@ -36,7 +36,7 @@
       "functions": [2, 3]
     },
     {
-      "id": 4,
+      "id": "p-4",
       "title": "2KDirect, Inc. (dba iPromote)",
       "privacyPolicy": "https://www.ipromote.com/privacy-policy/",
       "expiryDate": "730 dienos",
@@ -44,14 +44,14 @@
       "functions": [0, 1]
     },
     {
-      "id": 5,
+      "id": "p-5",
       "title": "152 Media LLC",
       "privacyPolicy": " https://152media.com/privacy-policy/",
       "expiryDate": "7 dienos",
       "purposes": [12]
     },
     {
-      "id": 6,
+      "id": "p-6",
       "title": "33Across",
       "privacyPolicy": "https://www.33across.com/privacy-policy",
       "expiryDate": "365 dienos",
@@ -60,7 +60,7 @@
       "functions": [3]
     },
     {
-      "id": 7,
+      "id": "p-7",
       "title": "360e-com Sp. z o.o.",
       "privacyPolicy": "https://www.clickonometrics.com/optout/",
       "expiryDate": "365 dienos",
@@ -69,7 +69,7 @@
       "specialFunctions": [5]
     },
     {
-      "id": 8,
+      "id": "p-8",
       "title": "3Q nexx GmbH",
       "privacyPolicy": "https://3q.video/de/datenschutz_und_richtlinien",
       "expiryDate": "30 dienų",
@@ -77,7 +77,7 @@
       "specialPurposes": [0, 1]
     },
     {
-      "id": 9,
+      "id": "p-9",
       "title": "42 Ads GmbH",
       "privacyPolicy": "https://42ads.io/42privacy.pdf",
       "expiryDate": "365 dienos",
@@ -101,7 +101,7 @@
         "note": "Tikslūs geografinės vietos duomenys reiškia, kad <b>nėra jokių naudojo vietos tikslumo apribojimų; vieta gali būti nustatoma kelių metrų tikslumu</b>. Tam tikras šių duomenų naudojimas apsaugai ar sukčiavimo prevencijai yra atskirai aprašytas ir <b>nereikalaujama atskiro vartotojo sprendimo naudoti tikslius geografinės padėties duomenis</b>."
       },
       "type": [],
-      "partners": [0, 1, 4, 6, 8, 9],
+      "partners": ["p-0", "p-1", "p-4", "p-6", "p-8", "p-9"],
       "required": true
     },
     {
