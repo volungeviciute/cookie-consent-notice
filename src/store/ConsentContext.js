@@ -4,6 +4,7 @@ import data from '../data/data.json';
 // purposeId -> categoryId
 
 const initialState = data.purposes.filter((p) => p.required).map((x) => x.id);
+const firstState = data.purposes.filter((p) => p.required || data.legalInterest.includes(p.id)).map((x) => x.id);
 
 const ConsentContext = createContext();
 
@@ -34,7 +35,7 @@ const consentReducer = (state, action) => {
 };
 
 const ConsentProvider = ({ children }) => {
-  const [state, dispatch] = useReducer(consentReducer, initialState);
+  const [state, dispatch] = useReducer(consentReducer, firstState);
 
   const value = { state, dispatch };
   return (
