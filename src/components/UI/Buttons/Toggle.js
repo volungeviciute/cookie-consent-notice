@@ -7,7 +7,7 @@ import { useConsentContext } from '../../../store/ConsentContext';
 // checks if the current toggle should be enabled or not
 const isToggleChecked = (id, collection) => {
   if (Array.isArray(id)) {
-    return id.every((x) => collection.includes(x));
+    return id.some((x) => collection.includes(x));
   }
   return collection.includes(id);
 };

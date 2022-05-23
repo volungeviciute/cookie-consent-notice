@@ -1,6 +1,7 @@
 import Popup from './components/Popup/Popup';
 import CookieSettingsWindow from './components/CookieSettingsWindow/CookieSettingsWindow';
 import { useState } from 'react';
+import './index.css';
 
 function App() {
   const [buttonPopup, setButtonPopup] = useState(true);
@@ -9,9 +10,18 @@ function App() {
   return (
     <div className='App'>
       <main>
-        <h1>React popups</h1>
-        <br></br>
-        <button onClick={() => setButtonPopup(true)}>Open popup</button>
+        <h1>Lrytas.lt</h1>
+        <div className='dummy-div'></div>
+        <div className='dummy-div'></div>
+        <div className='dummy-div'></div>
+        <div className='dummy-div'></div>
+        <div className='dummy-div'></div>
+        <div className='dummy-div'></div>
+        <div className='dummy-div'></div>
+        <div className='dummy-div'></div>
+        <div className='dummy-div'></div>
+        <div className='dummy-div'></div>
+        {/* <button onClick={() => setButtonPopup(true)}>Open popup</button> */}
       </main>
       <Popup
         trigger={buttonPopup}
