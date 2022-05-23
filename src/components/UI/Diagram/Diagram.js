@@ -37,13 +37,8 @@ const Diagram = (props) => {
     if (!svgRef) return;
 
     const { nodes, links } = produceSankey(data, width, height);
-    // console.log(
-    //   `highlightedInput: ${highlightedInput} \t highlightedOutput: ${highlightedOutput}`
-    // );
-    console.log(nodes);
 
     const format = (type, d) => {
-      console.log(data)
       const format = d3.format(',.0f');
       // return data.units ? `${format(d)} ${data.units}` : format;
       return type === 0 ? `Šis duomenų tipas naudojamas ${format(d)} tikslais` : `Šiuo tikslu tvarkomi ${format(d)} duomenų tipai`;
