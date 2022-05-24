@@ -5,7 +5,7 @@ import parse from "html-react-parser";
 
 function LegalDescription(props) {
   return (
-    <div className="legal-description-container">
+    <div className='legal-description-container'>
       {props.canDo && (
         <Fragment>
           <p>
@@ -33,10 +33,10 @@ function LegalDescription(props) {
       )}
       {props.note && (
         <div>
-          <div className="note-container">
+          <div className='note-container'>
             <Icon
-              className="icon"
-              icon="clarity:exclamation-circle-solid"
+              className='icon'
+              icon='clarity:exclamation-circle-solid'
               align='bottom'
             />
             <p className="note">
@@ -44,7 +44,6 @@ function LegalDescription(props) {
               <br />
             </p>
           </div>
-          {/* https://stackoverflow.com/questions/66996539/how-to-show-only-texts-in-react-from-json-data-with-html-tag */}
           <p>{parse(props.note)}</p>
         </div>
       )}

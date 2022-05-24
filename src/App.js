@@ -21,7 +21,6 @@ function App() {
         <div className='dummy-div'></div>
         <div className='dummy-div'></div>
         <div className='dummy-div'></div>
-        {/* <button onClick={() => setButtonPopup(true)}>Open popup</button> */}
       </main>
       <Popup
         trigger={buttonPopup}

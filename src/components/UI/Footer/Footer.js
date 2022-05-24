@@ -1,5 +1,5 @@
-import React from 'react'
-import PrimaryButton from '../Buttons/PrimaryButton'
+import React from 'react';
+import PrimaryButton from '../Buttons/PrimaryButton';
 import Link from '../Buttons/Link';
 import './Footer.css';
 
@@ -12,7 +12,7 @@ function Footer(props) {
       <Link onClick={props.setTeisetasInteresas} linkText='Teisėtas interesas'/>
       <div className='save-btn'>
       <PrimaryButton
-        buttonName="Įrašyti ir išeiti"
+        buttonName='Įrašyti ir išeiti'
         onClick={props.setIrasyti}
       />
       </div>

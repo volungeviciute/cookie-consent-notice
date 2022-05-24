@@ -14,13 +14,11 @@
 }
 
 .popup-inner {
-    /* position: relative; */
     display: flex;
     flex-direction: row;
     flex: 1;
     padding: 32px;
     width: 100%;
-    /* max-width: 650px; */
     min-height: 200px;
     background-color: #fff;
     border-top: 1px #ccc solid;
@@ -59,9 +57,3 @@
 .popup-title {
     margin-bottom: 10px;
 }
-
-/* .popup-inner .close-btn {
-    position: absolute;
-    top: 16px;
-    right: 16px;
-} */

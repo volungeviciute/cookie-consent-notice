@@ -21,19 +21,6 @@ function Accordion(props) {
     );
   }
 
-  if (content && content.current) {
-    console.log(
-      `content.current.scrollHeight: ${content.current.scrollHeight}`
-    );
-    console.log(
-      `setHeight: ${parseInt(setHeight.substring(0, setHeight.length - 2))}`
-    );
-    console.log(
-      content.current.scrollHeight >
-        parseInt(setHeight.substring(0, setHeight.length - 2))
-    );
-  }
-
   return (
     <div className='accordion-section'>
       <div className='accordion-card'>

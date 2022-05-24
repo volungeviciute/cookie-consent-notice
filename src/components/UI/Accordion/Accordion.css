@@ -5,40 +5,25 @@
 
 .accordion {
     background-color: white;
-    /* line-height: 24px; */
-    /* outline: none; */
     border: none;
-    /* border-top: solid rgba(0, 0, 0, 0.1); */
     border-top-width: 1px;
     color: #444;
     cursor: pointer;
-    /* padding: 18px; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* border: none; */
-    /* outline: none; */
     margin-left: auto;
-    /* justify-content: flex-end; */
     transition: background-color 0.6s ease;
 }
 
 .accordion-card {
     background-color: white;
-    /* line-height: 24px; */
-    /* outline: none; */
     border: none;
     border-top: solid rgba(0, 0, 0, 0.1);
     border-top-width: 1px;
     color: black;
-    /* cursor: pointer; */
     padding: 18px;
     display: flex;
     flex-direction: row;
     flex:1;
     align-items: center;
-    /* border: none; */
-    /* outline: none; */
-    /* transition: background-color 0.6s ease; */
 }
 
 .accordion-switch {

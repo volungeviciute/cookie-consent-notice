@@ -1,5 +1,5 @@
-import React from 'react'
-import './Popup.css'
+import React from 'react';
+import './Popup.css';
 import PrimaryButton from '../UI/Buttons/PrimaryButton';
 import SecondaryButton from '../UI/Buttons/SecondaryButton';
 
