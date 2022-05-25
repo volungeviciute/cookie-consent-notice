@@ -1,8 +1,6 @@
 import { createContext, useReducer, useContext } from 'react';
 import data from '../data/data.json';
 
-// purposeId -> categoryId
-
 const initialState = data.purposes.filter((p) => p.required).map((x) => x.id);
 const firstState = data.purposes.filter((p) => p.required || data.legalInterest.includes(p.id)).map((x) => x.id);
 
@@ -26,7 +24,7 @@ const consentReducer = (state, action) => {
       return state.filter((x) => initialState.includes(x));
     }
     case 'add-all': {
-      return data.purposes.map((p) => p.id);
+      return data.purposes.map((p) => p.id).concat(data.partners.map((p)=>p.id));
     }
     default: {
       throw new Error(`Unhandled action type: ${action.type}`);
