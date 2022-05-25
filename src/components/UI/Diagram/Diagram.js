@@ -6,7 +6,6 @@ const produceSankey = ({ nodes, links }, width, height) => {
   const sankey = d4
     .sankey()
     .nodeId((d) => d.name)
-    //.nodeAlign(d3[`sankeyJustify`])
     .nodeWidth(15)
     .nodePadding(10)
     .extent([
@@ -40,7 +39,6 @@ const Diagram = (props) => {
 
     const format = (type, d) => {
       const format = d3.format(',.0f');
-      // return data.units ? `${format(d)} ${data.units}` : format;
       return type === 0 ? `Šis duomenų tipas naudojamas ${format(d)} tikslais` : `Šiuo tikslu tvarkomi ${format(d)} duomenų tipai`;
     };
 
@@ -79,14 +77,10 @@ const Diagram = (props) => {
         // If rect has no sourceLinks, it is the "final" rect
         if (d.sourceLinks.length === 0) {
           // If final rect, we want to highlight all sources to the final rect
-          // set(viewof highlightedInput, null);
-          // set(viewof highlightedOutput, d.name);
           setHighlightedInput(null);
           setHighlightedOutput(d.name);
         } else {
           // Otherwise, we want to highlight all targets
-          // set(viewof highlightedInput, d.category);
-          // set(viewof highlightedOutput, null);
           setHighlightedInput(d.category);
           setHighlightedOutput(null);
         }
@@ -133,15 +127,6 @@ const Diagram = (props) => {
     link
       .append('path')
       .attr('d', d4.sankeyLinkHorizontal())
-      // .attr('stroke', (d) =>
-      //   edgeColor === 'none'
-      //     ? '#aaa'
-      //     : edgeColor === 'path'
-      //     ? d.uid
-      //     : edgeColor === 'input'
-      //     ? color(d.source)
-      //     : color(d.target)
-      // )
       .attr('stroke', (d) => `url(#${d.uid})`)
       // Change opacity based on highlighted
       .attr('opacity', (d) => {
@@ -177,15 +162,11 @@ const Diagram = (props) => {
       .attr('stroke-width', (d) => Math.max(1, d.width))
       .on('mouseover', function (el, d) {
         // On mouseover of path, set highlights to equal source and target
-        // set(viewof highlightedInput, d.source.category)
-        // set(viewof highlightedOutput, d.target.name)
         setHighlightedInput(d.source.category);
         setHighlightedOutput(d.target.name);
       })
       .on('mouseout', () => {
         // On mouseout, unhighlight
-        // set(viewof highlightedInput, null)
-        // set(viewof highlightedOutput, null)
         setHighlightedInput(null);
         setHighlightedOutput(null);
       });
