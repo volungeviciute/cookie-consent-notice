@@ -1,6 +1,6 @@
 import Data from '../../../data/data.json';
 
-// parses the purposes array, mapes them to categories
+// parses the purposes array, maps them to categories
 // and produces a d3-sankey diagram compliant data structure
 const ParsePurposes = (purposeIds) => {
   const categories = Data.categories.filter((x) =>

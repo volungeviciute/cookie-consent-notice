@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import { Icon } from "@iconify/react";
+import { Icon } from '@iconify/react';
 import './LegalDescription.css';
-import parse from "html-react-parser";
+import parse from 'html-react-parser';
 
 function LegalDescription(props) {
   return (
@@ -51,4 +51,4 @@ function LegalDescription(props) {
   );
 }
 
-export default LegalDescription
+export default LegalDescription;
